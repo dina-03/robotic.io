@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+section {
+    _width: 100%;
+    _min-width: 1100px;
+    height: 100vh;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    min-width: 1000px;
+    _border: 1px solid #000;
+}
+
+nav {
+    width: 100%;
+    min-width: 1000px;
+    height: 50px;
+    background-color: rgb(77, 77, 77);
+    position: fixed;
+    z-index: 999;
+    color: aliceblue;
+    vertical-align: middle;
+}
+
+nav ul li {
+    float: left;
+    padding-right: 25px;
+    list-style: none;
+    text-transform: uppercase;
+    margin-left: 55px;
+    padding-top: 15px;
+}
+
+nav a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(105, 211, 247);
+}
+
+.left {
+    width: 49%;
+    height: 100vh;
+    display: inline-block;
+}
+
+.right {
+    width: 49%;
+    height: 100vh;
+    background-color: transparent;
+    display: inline-block;
+}
+
+.left-box {
+    background: url("./../img/robot.png") no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 100%;
+    height: 100vh;
+    float: left;
+    overflow: hidden;
+}
+
+.right-box {
+    background: url("./../img/bg01.png");
+    background-size: cover;
+    background-color: transparent;
+    width: 100%;
+    height: 100vh;
+    padding-left: 50px;
+    float: right;
+}
+
+.text-box {
+    width: 400px;
+    height: 400px;
+    margin-top: 50%;
+}
+
+.text-box h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+.text-box p {
+    font-size: 1.2rem;
+    width: 450px;
+    margin: 25px 0;
+    padding-bottom: 20px;
+}
+
+button {
+    background-color: #00cccc;
+    border: 0px;
+    padding: 10px 20px;
+    color: aliceblue;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+
+.left-two {
+    margin: 0 35px 0;
+    margin-top: 10%;
+    width: 100%;
+    height: 100vh;
+    padding-left: 150px;
+    background: url("./../img/bg-03.png") no-repeat;
+}
+
+.left-two h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.left-two p {
+    padding: 20px 30px 0 0;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    font-size: 1.2rem;
+}
+
+span {
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.9rem;
+}
+
+.dark-circle {
+    margin-top: 150px;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background: url("./../img/abstract-bg.png");
+}
+
+.right-two {
+    background: url("./../img/bg-03-right.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid rgba(255, 255, 255, 0.048);
+}
+
+.right-two img {
+    margin-top: 20px;
+    margin-left: 45px;
+    width: 85%;
+    border-radius: 50%;
+    border: 10px solid #7e7b7b;
+}
+
+.robot {
+    width: 100%;
+    height: 100%;
+    background: url("./../img/bg-L.png") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border: 1px solid rgba(255, 255, 255, 0.048);
+}
+
+.engineering{
+    background: url("./../img/robot02.jpg") no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    border: 20px solid #3399cc;
+    margin: 70px;
+} 
+
+.robots {
+    float: right;
+    width: 90%;
+    align-items: center;
+    margin-top: 25%;
+}
+
+.robots h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.robots p {
+    width: 500px;
+    font-size: 1.2rem;
+    margin: 50px 0;
+}
+
+footer {
+    width: 100%;
+    height: 100vh;
+    background: url("./../img/001.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    position: relative;
+    margin: 0 auto;
+}
+
+footer h2 {
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+    padding: 160px 0;
+    
+}
+footer .soc-logo {
+    position: absolute;
+    left: 35%;
+    bottom: 120px;
+}
+
+footer p {
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+    line-height: 1.8rem;
+    letter-spacing: 0.2rem;
+}
+
+footer a {
+    padding-left: 45px;
+}
+
+@media screen and (max-width: 1300px){
+    .engineering{
+        width: 400px;
+        height: 400px;
+    }
+}
